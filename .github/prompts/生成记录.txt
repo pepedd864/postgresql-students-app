@@ -1,0 +1,6 @@
+项目骨架已生成：index.js, public/, db/init.sql, package.json, README.md, .gitignore
+dbhub 操作记录：
+- 已使用 dbhub 创建数据库 `students_db`（成功）。
+- 在当前连接的数据库中已创建表 `students`（CREATE TABLE IF NOT EXISTS 成功）。
+
+注意：CREATE DATABASE 已创建一个新数据库，但要在 `students_db` 中运行额外初始化（比如插入测试数据）需要在该数据库上下文中执行 SQL 或提供对应的连接字符串（DATABASE_URL 指向 students_db）。
